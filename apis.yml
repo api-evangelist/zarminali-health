@@ -1,8 +1,30 @@
 aid: zarminali-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zarminali-health.png
 name: Zarminali Health
-description: Zarminali Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Zarminali Health (Zarminali Pediatrics) is a pediatric healthcare provider
+  building a new standard for children's care through purpose-built clinics that
+  support families from newborn care through young adulthood. Its services span
+  primary care, urgent care, telehealth, and specialty pediatric care, with
+  clinics expanding across Michigan, Minnesota, Georgia, Illinois, Maryland,
+  Wisconsin, and Tennessee. Patient access is delivered through an AthenaHealth
+  patient portal rather than a public developer platform. As a clinical care
+  delivery organization, Zarminali Health publishes no public API, developer
+  portal, OpenAPI specification, SDKs, or machine-readable developer surface at
+  this time. It was surfaced as a General Catalyst portfolio company and added
+  to the API Evangelist network as a lead; this enrichment pass confirmed there
+  is currently no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/zarminali-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,31 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Pediatrics
+- Health
+- Telehealth
+- Clinical Care
+- Patient Portal
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zarminali-health-domain-security.yml
+- type: Website
+  url: https://zarminali.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
