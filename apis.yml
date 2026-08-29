@@ -37,6 +37,9 @@ description: >-
   to the API Evangelist network as a lead; this enrichment pass confirmed there
   is currently no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/zarminali-health/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It was surfaced as a General Catalyst portfolio company and added to the API Evangelist network as a lead; this enrichment pass confirmed there is currently no public API surface to catalog."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
