@@ -49,7 +49,7 @@ x-tier-reason: portfolio-lead
 x-api-surface: none
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Healthcare
@@ -60,6 +60,10 @@ tags:
 - Patient Portal
 apis: []
 common:
+- url: https://zarminali.com/news
+  type: Blog
+- url: https://zarminali.com/news/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/zarminali-health-domain-security.yml
 - type: Website
